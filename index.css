@@ -1,0 +1,66 @@
+
+.text-platzi{
+    color: #97c93e!important;
+}
+
+.btn-platzi{
+    background-color: #97c93e;
+    color: white!important;
+    
+}
+.btn-platzi:hover{
+    background-color: #85b136;
+}
+#header img{
+    width: 80px;
+}
+
+
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover; /*mantener la proporción de las imágines*/
+    filter: grayscale(70%); /*decolorar imágenes para mejor contraste de otros elementos*/
+}
+#main{
+    position: relative;
+}
+#main .overlay{
+    z-index: 1;     /*capa en la que se muestra el elemento */
+    position: absolute;     /* el main en relative es el padre y este se pone absolute y se pega a los extremos
+                            para ocupar todo el espacio disponible dentro del padre*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0 , 0, 0.5);   /*dar opacidad al fondo */
+    color: white;
+}
+#main .overlay .container,
+#main .overlay .row{
+    height: 100%;
+}
+
+
+#place-time{
+    background-color: #343a40!important;
+    color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+#footer{
+    background-color: #273b47 ;
+    
+}
+
+#footer a{
+    color: white;
+}
+
